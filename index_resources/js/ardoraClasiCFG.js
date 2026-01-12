@@ -1,25 +1,25 @@
 //Creado con Ardora - www.webardora.net
 //bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
 //para otros usos contacte con el autor
-var timeAct=40; timeIni=40; timeBon=0;
-var successes=0; successesMax=6; attempts=0; attemptsMax=3;
+var timeAct=100; timeIni=100; timeBon=0;
+var successes=0; successesMax=6; attempts=0; attemptsMax=2;
 var score=0; scoreMax=6; scoreInc=1; scoreDec=0
 var typeGame=0;
 var tiTime=true;
 var tiTimeType=0;
 var tiButtonTime=true;
-var textButtonTime="Iniciar";
+var textButtonTime="Comenzar";
 var tiSuccesses=true;
 var tiAttempts=true;
 var tiScore=true;
 var startTime;
-var colorBack="#FFFFFF"; colorButton="#8080FF"; colorText="#000000"; colorSele="#FF0000";
+var colorBack="#FFFFFF"; colorButton="#0000FF"; colorText="#000000"; colorSele="#0080C0";
 var goURLNext=false; goURLRepeat=false;tiAval=false;
 var scoOk=0; scoWrong=0; scoOkDo=0; scoWrongDo=0; scoMessage=""; scoPtos=10;
 var fMenssage="Verdana, Geneva, sans-serif";
 var fActi="Verdana, Geneva, sans-serif";
-var fEnun="Verdana, Geneva, sans-serif";
-var timeOnMessage=5; messageOk="Excelente!!"; messageTime=""; messageError="Intentalo otra vez"; messageErrorG="Intentalo otra vez"; messageAttempts=""; isShowMessage=false;
+var fEnun="Copperplate / Copperplate Gothic Light, sans-serif";
+var timeOnMessage=2; messageOk="Excelente!!"; messageTime=""; messageError="Intentalo otra vez"; messageErrorG="Intentalo otra vez"; messageAttempts=""; isShowMessage=false;
 var urlOk=""; urlTime=""; urlError=""; urlAttempts="";
 var goURLOk="_blank"; goURLTime="_blank"; goURLAttempts="_blank"; goURLError="_blank"; 
 borderOk="#008080"; borderTime="#FF0000";borderError="#FF0000"; borderAttempts="#FF0000";
